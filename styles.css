@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000000;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    color: #f3ebeb;
+    text-decoration: none;
+}
+p{
+    color: #f3ebeb;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0%;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* Navegacion */
+.nav-main{
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.container .nav-main ul.nav-menu-right {
+    font-size: 1.5rem;
+    list-style: none;
+    
+}
+.nav-brand{
+    width: 50px;
+    margin-top: 10px;
+}
+
+/* Navegacion izquierda */
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li{
+    padding: 10px;
+}
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 230px;
+    gap: 25px;
+    list-style: none;
+}
+/* Showcase */
+
+hr{
+    margin: 10px 0px;
+}
+.showcase{
+    width: 100%;
+    height: 550px;
+    background: url("./img/icon.png") no-repeat center/cover;
+    padding: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.showcase p{
+    margin-bottom: 10px;
+    color:rgb(13, 14, 12);
+    font-weight: 400;
+    background: #889ccf;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    color: #262626;
+    font-size: 25px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #5878ca;
+
+}
+
+.showcase h2 {
+    font-weight: 400;
+    background: #889ccf;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    color: #262626;
+    font-size: 25px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #5878ca;
+
+}
+/* News cards*/
+.news-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 10px 0;
+}
+.news-cards img{
+    width: 90%;
+    height: 180px;   
+}
+.news-cards h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.news-cards a{
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+.news-cards a:hover{
+    text-decoration: underline;
+}
+/* Cards Banner One*/
+.cards-banner-one{
+    width: 100%;
+    height: 350px;
+    background: url("./img/tech-red.jpg");
+    margin-bottom: 40px;
+}
+.cards-banner-one .content{
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: #ffffff;
+}
+.cards-banner-one p,
+.cards-banner-one h2{
+    margin: 10px 0 20px 0;
+}
+
+/* Catalogo principal Cat-1*/
+.catalogo-principal h3{
+    font-size: 35px;
+    margin: 43px;
+    margin-bottom: 10px;
+}
+.catalogo-principal .cat-1 img{
+    width: 75%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.catalogo-principal .cat-1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px 0;
+    
+}
+
+/* Cards Banner Two*/
+.cards-banner-two .content .other-services h3{
+    font-size: 35px;
+    margin: 0px;
+    margin-top: auto;
+}
+.cards-banner-two {
+    margin-top: 20px;
+    width: 100%;
+    height: 450px;
+    background: url("./img/banner1.jpeg") no-repeat center center/cover;
+}
+.cards-banner-two .content{
+    width: 70%;
+    padding: 50px 0 0 30px;
+}
+.cards-banner-two .content p{
+    margin: 20px;
+}
+.cards-banner-two .servicios li{
+    margin: 20px;
+    font-size: 20px;
+}
+
+/* Social*/
+.social {
+    margin: 50px;
+    margin-top: 150px;
+}
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#f2f2f2;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a {
+    margin: 0 30px;
+}
+.links a i {
+    font-size: 3rem;
+}
+/* Footer Links */
+.footer h3{
+    text-align: center;
+    background: #15325a;
+    color: #616161;
+    font-size: 20px;
+    padding: 10px 5px 5px 30px;
+}
+
+/* quienessomos.html*/
+
+.who .asesor {
+    margin-top: 50px;
+    list-style: none;
+    
+}
+.who .asesor a{
+    color:#15325a;
+}
+
+/*Página de contacto.html*/
+.contenido {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: #B70E21;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    margin-top: 30px;
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #222222;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #303bd6;
+}
+
+.contact-form form button {
+    background: #1f0eb7;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #3b30d6;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: #000;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/* LARGE SIZE */
+@media(min-width: 700px) {
+    body {
+        padding: 0 4em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
