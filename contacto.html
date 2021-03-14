@@ -61,7 +61,7 @@
             <div class="contact-wrapper animated bounceInUp">
                 <div class="contact-form">
                     <h3>Contacte con nosotros</h3>
-                    <form action="correo.php">
+                    <form name = "contac" method = "POST" data-netlify ="true">
                         <p>
                             <label>Nombre completo</label>
                             <input type="text" name="nombre">
@@ -83,7 +83,7 @@
                             <textarea name="mensaje" rows="3"></textarea>
                         </p>
                         <p class="block">
-                            <button type="button">
+                            <button type="submit">
                                 Enviar
                             </button>
                         </p>
