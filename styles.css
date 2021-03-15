@@ -29,9 +29,19 @@ ul{
     width: 90%;
     margin: auto;
 }
-
+/*Boton menu para responsive*/
+.menu-boton{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.8rem;
+    display: none;
+}
 /* Navegacion */
 .nav-main{
+    margin-right: auto;
     font-size: 23px;
     display: flex;
     justify-content: space-between;
@@ -60,9 +70,9 @@ ul{
     border-bottom: 2px solid #ffffff;
 }
 .nav-main ul.nav-menu{
-    flex: 1;
-    margin-left: 300px;
-    gap: 120px;
+    flex: auto;
+    
+    gap: 200px;
     list-style: none;
 }
 /* Showcase */
@@ -241,19 +251,13 @@ hr{
 
 /*Página de contacto.html*/
 .contenido {
-    max-width: 1170px;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
-}
-.logo {
-    text-align: center;
-    font-size: 3em;
+    
 }
 
-.logo span {
-    color: #B70E21;
-}
 
 .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
@@ -323,33 +327,8 @@ hr{
     margin: 0 0 1rem 0;
 }
 
-/* LARGE SIZE */
-@media(min-width: 700px) {
-    body {
-        padding: 0 4em;
-    }
-    .contact-wrapper {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    .contact-wrapper > * {
-        padding: 2em;
-    }
-    .contact-info h4,
-    .contact-info ul,
-    .contact-info p {
-        text-align: left;
-    }
-}
-
-/*Seleccion de productos*/
-
-.imgSeleccion{
-    background: url("./img/enConstruccion.png");
-
-}
-/*Catálogo*/
-
-.imgCatalogo{
-    background: url("./img/enConstruccion.png");
+/*Imagen selProdcutos*/
+.imgSel img{
+    width: 100%;
+    height: 100%;
 }
