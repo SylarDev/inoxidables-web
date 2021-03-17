@@ -175,6 +175,7 @@ hr{
     height: 180px;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
 }
 .catalogo-principal .cat-1{
     display: grid;
@@ -230,6 +231,9 @@ hr{
     font-size: 3rem;
 }
 /* Footer Links */
+.footer{
+    bottom: 0px;
+}
 .footer h3{
     text-align: center;
     background: #15325a;
